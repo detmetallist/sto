@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Евро-техресурс</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+
+
+
+<!-- Head -->
+
+	<header class="top-bg">
+		<div class="line-bg">
+			<div class="nav-top">
+				<div class="logo">
+					<a href="/"><img src="img/Logo.svg" alt="logo"></a>
+				</div>
+				<menu>
+					<ul>
+						<li><a href="#onas">О компании</a></li>
+						<li><a href="#categories">ВИДЫ РАБОТ</a></li>
+						<li><a href="#otzivi">Отзывы</a></li>
+						<li><a href="#certificates">Сертификаты</a></li>
+						<li><a href="#contacts">Контакты</a></li>
+					</ul>
+				</menu>
+				<div class="phone">
+					<a class="phone_right" href="tel:+380674244484">+38 (067) 424-44-84</a>
+					<div class="button">
+						<a href="#call">ПОЗВОНИТЕ МНЕ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+			<!-- certificates, contacts, reviews, callback -->
+			<div class="certificates">
+				<a href="#certificates">СЕРТИФИКАТЫ</a>
+				<a href="#certificates" class="arrow-right"><img src="img/arrow-right.png" alt="arrow"></a>
+			</div>
+			<div class="certificates-b">
+				<div class="certificates-box">
+					<div class="button_close"></div>
+					<div class="certificates-content">
+						<h3>Вся продукция сертифицирована</h3>
+						<p></p>
+						<div class="certificates-img">
+							<a href="#">
+								<img src="img/doc1.jpg" alt="DOC">
+								<p></p>
+							</a>
+						</div>
+						<div class="certificates-img">
+							<a href="#">
+								<img src="img/doc1.jpg" alt="DOC">
+								<p></p>
+							</a>				
+						</div>
+						<div class="certificates-img">
+							<a href="#">
+								<img src="img/doc1.jpg" alt="DOC">
+								<p></p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="reviews">
+				<a href="#otzivi">ОТЗЫВЫ</a>
+				<a href="#otzivi" class="arrow-left"><img src="img/arrow-left.png" alt="arrow"></a>
+			</div>
+			<div class="reviews-b">
+				<div class="reviews-box">
+					<div class="button_close"></div>
+					<h3>Отзывы наших клиентов</h3>
+					<div class="reviews-box-content">
+						<div class="reviews-items">
+							<div class="reviews-item-foto">
+								<img src="img/photo.jpg" alt="photo">
+								<div class="name"><p>Андрей</p></div>
+							</div>
+							<div class="reviews-text">
+								<p>Андрей: </p>
+								<span>Большое спасибо мастерам автосервиса – четко определили все проблемы грузовика, сразу обозначили цену на все, запчасти подобрали и сделали ремонт быстро. Да, с выбором СТО я не ошибся, уже вторую неделю езжу на тягаче, никаких проблем.</span>
+							</div>
+						</div>
+						<div class="reviews-items">
+							<div class="reviews-item-foto">
+								<img src="img/photo2.jpg" alt="photo">
+								<div class="name"><p>Геннадий</p></div>
+							</div>
+							<div class="reviews-text">
+								<p>Геннадий: </p>
+								<span>Хочу выразить благодарность ребятам с автосервиса за быстрое, профессиональное выполнение своей работы – в кратчайшие сроки разобрались со всеми неисправностями подвески, всю ходовую перебрали и, в принципе, недорого по нашим деньгам. Запчасти покупал тоже по приемлемой цене, а на всю работу ушло немного времени, так, что я не в убытке. </span>
+							</div>
+						</div>
+						<div class="reviews-items">
+							<div class="reviews-item-foto">
+								<img src="img/photo3.jpg" alt="photo">
+								<div class="name"><p>Михаил</p></div>
+							</div>
+							<div class="reviews-text">
+								<p>Михаил: </p>
+								<span>Пришло время капитального ремонта двигателя и еще кое-какие проблемки по мелочи, давно покоя не давали – очень был удивлен оперативностью работы, сейчас движок работает, как часы. Перед капиталкой диагностику провели, указали на все неисправности и детали под замену, в общем, выехал мой грузовик от них, как новый.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="callback">
+				<a href="#call">
+					<p>Тел. +38 (067) 424-44-84</p>
+					<img src="img/callback.png" alt="callback">
+				</a>
+			</div>
+			<div class="form-callback" id="form-callback">
+				<div class="button_close"></div>
+				<form id="form_call">
+					<h3>ПОЗВОНИТЕ МНЕ</h3>
+					<input name="user_name" type="text" placeholder="Имя*" required="required">
+					<input name="phone" type="text" placeholder="Телефон*" required="required">
+					<p>Поля с * обязательны для заполнения</p>
+					<input type="submit" value="Отправить">
+				</form>	
+			</div>
+			<div class="block_thanks">
+				<div class="thanks_content"><p>Спасибо за заявку! Мы с Вами свяжемся в ближайшее время!</p></div>
+			</div>
+			<div class="contacts">
+				<a href="#contacts" class="arrow-center"><img src="img/arrow-right.png" alt="arrow"></a>
+				<a href="#contacts">КОНТАКТЫ</a>
+			</div>
+			<div class="contacts-b">
+				<div class="contacts-map">
+					<div class="button_close"></div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.8659686633005!2d35.00765561511395!3d48.42071743937787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe356fb682a0b%3A0x2e7f6f26f8414258!2z0LLRg9C70LjRhtGPINCo0LjQvdC90LAsIDIsINCU0L3RltC_0YDQvsyBLCDQlNC90ZbQv9GA0L7Qv9C10YLRgNC-0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1509894131840" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<div class="map-box">
+						<div class="map-phone">
+							<a href="tel:+380674244484">+38 (067) 424-44-84</a>
+						</div>
+						<div class="map-button">
+							<a href="#call"><p>ПОЗВОНИТЕ МНЕ</p></a>
+						</div>
+					</div>
+					<div class="clear"></div>
+				</div>
+
+			</div>
+			<div class="articles-b">
+				<div class="articles">
+					<div class="button_close"></div>
+					<div class="articles-box-content">
+						<h3>Ремонт грузовых автомобилей </h3>
+						<div class="articles-items">
+							<div class="articles-text">
+								<p>Ремонт грузовых автомобилей  </p>
+								<span>В зависимости от объема работы, определяемого после проведения диагностики, наш сервис грузовых автомобилей выполняет: <br>
+								*	Профилактический ремонт – спектр услуг, направленный на замену расходных материалов (масел, тормозной/трансмиссионной жидкости, фильтров), контроль, регулировку и смазку отдельных узлов/механизмов. <br>
+								*	Текущий ремонт – устранение неисправностей/поломок, возникающих внезапно в процессе эксплуатации, кузовные, слесарные работы, регулировка сход-развала и прочие работы, требующие немедленного выполнения. <br>
+								*	Капитальный ремонт – в спектр работ входит сборка/разборка и дефектовка узлов и агрегатов, ремонт и замена изношенных деталей, обновление или замена электрики, ремонт ДВС, КПП, и других систем с выработкой ресурса. <br>
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--end certificates, contacts, reviews, callback -->
+
+		<div class="title-text">
+			<h1>СТО грузовых автомобилей</h1>
+			<p>Качество, которому доверяют</p>
+		</div>
+	</header>
+<!-- end Head -->
+
+<!-- main -->
+<div class="main">
+	<div class="section-items">
+		<div class="boxs-5" id="onas">
+			<div class="items-center">
+				<div class="item">
+					<div class="text">
+						<a href="remont-gruzovyh-avtomobilej" rel="Ремонт грузовых автомобилей" class="href_statii">Ремонт грузовых <br>автомобилей</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="text">
+						<a href="avtoelectrica.html">Автоэлектрика<br>   &nbsp;</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="text">
+						<a href="remont-legkovih-avto" rel="Ремонт легковых автомобилей" class="href_statii"> <br>Ремонт легковых авто</a>
+					</div>
+				</div>
+			</div>
+			<div class="items-center-md">
+				<div class="item">
+					<div class="text">
+						<a href="remont-gruzovyh-avtomobilej" rel="Ремонт грузовых автомобилей" class="href_statii">Ремонт грузовых <br>автомобилей</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="text">
+						<a href="kuzovnoj-remont" rel="Кузовной ремонт" class="href_statii"> Кузовной ремонт</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="text">
+						<a href="avtoelectrica.html">Автоэлектрика</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="text">
+						<a href="remont-legkovih-avto" rel="Ремонт легковых автомобилей" class="href_statii"> <br>Ремонт легковых авто</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="text">
+						<a href="servis-24-7" rel="Сервис 24/7"  class="href_statii">Сервис 24/7</a>
+					</div>
+				</div>
+			</div>
+			<div class="items-center-2">
+				<div class="item">
+					<div class="text">
+						<a href="diagnostika-i-to" rel="Диагностика и ТО"  class="href_statii">Диагностика и ТО</a>
+					</div>
+				</div>
+				<div class="item">
+					<div class="text">
+						<a href="servis-24-7" rel="Сервис 24/7"  class="href_statii">Сервис 24/7</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="items-bg"></div>
+	<div class="services" id="categories">
+		<ul>
+			<li>
+				<a  class="href_statii" href="diagnostika-i-to" rel="Диагностика и ТО">
+					<img src="img/1.jpg" alt="jpg">
+					<p>Диагностика и ТО</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-kpp" rel="Ремонт КПП">
+					<img src="img/2.jpg" alt="jpg">
+					<p>Ремонт КПП</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-rulevogo-upravleniya" rel="Ремонт рулевого управления">
+					<img src="img/3.jpg" alt="jpg">
+					<p>Ремонт рулевого управления</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-reduktora" rel="Ремонт редуктора">
+					<img src="img/4.jpg" alt="jpg">
+					<p>Ремонт редуктора</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-podveski-i-hodovoj" rel="Ремонт подвески и ходовой">
+					<img src="img/5.jpg" alt="jpg">
+					<p>Ремонт подвески и ходовой</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="diagnostika-i-to" rel="Диагностика и ТО">
+					<img src="img/6.jpg" alt="jpg">
+					<p>Диагностика и ТО</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="elektronnye-sistemy" rel="Электронные системы">
+					<img src="img/7.jpg" alt="jpg">
+					<p>Электронные системы</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-starterov" rel="Ремонт стартеров">
+					<img src="img/8.jpg" alt="jpg">
+					<p>Ремонт стартеров</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-pricepov" rel="Ремонт прицепов">
+					<img src="img/9.jpg" alt="jpg">
+					<p>Ремонт прицепов</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-furgonov" rel="Ремонт фургонов">
+					<img src="img/10.jpg" alt="jpg">
+					<p>Ремонт фургонов</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="provedenie-to" rel="Проведение ТО">
+					<img src="img/11.jpg" alt="jpg">
+					<p>Проведение ТО</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="razval-skhozhdenie" rel="Развал-схождение">
+					<img src="img/12.jpg" alt="jpg">
+					<p>Розвал-схождение</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-pnevmaticheskih-sistem" rel="Ремонт пневматических систем">
+					<img src="img/13.jpg" alt="jpg">
+					<p>Ремонт пневматических систем</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="remont-gidravlicheskih-sistem" rel="Ремонт гидравлических систем">
+					<img src="img/14.jpg" alt="jpg">
+					<p>Ремонт гидравлических систем</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="kuzovnoj-remont2" rel="Кузовной ремонт">
+					<img src="img/15.jpg" alt="jpg">
+					<p>Кузовной ремонт</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="svarochnye-raboty" rel="Сварочные работы">
+					<img src="img/16.jpg" alt="jpg">
+					<p>Сварочные работы</p>
+				</a>
+			</li>
+			<li>
+				<a class="href_statii" href="pokraska" rel="Покраска">
+					<img src="img/17.jpg" alt="jpg">
+					<p>Покраска</p>
+				</a>
+			</li>
+			<li>
+				<a  class="href_statii" href="prodazha-zapchastej" rel="Продажа запчастей">
+					<img src="img/18.jpg" alt="jpg">
+					<p>Продажа запчастей</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="manufacturers">
+		<div class="work-space">
+			<div class="title-text">
+				<h1>Производители</h1>
+				<p>с которыми работаем</p>
+			</div>
+			<div class="slider">
+				<div class="left-slide-arrow"><a href="#"><img src="img/arrow-right.png" alt="arrow"></a></div>
+				<div class="slide-item">
+					<div class=slide-items>
+						<div class="item-box"><a href="#" class="slide_href"><img src="img/sotr/man.jpg" alt="img"></a></div>
+						<div class="item-box"><a href="#" class="slide_href"><img src="img/sotr/daf.jpg" alt="img"></a></div>
+						<div class="item-box"><a href="#" class="slide_href"><img src="img/sotr/mersedes.jpg" alt="img"></a></div>
+						<div class="item-box"><a href="#" class="slide_href"><img src="img/sotr/scania.jpg" alt="img"></a></div>
+						<div class="item-box"><a href="#" class="slide_href"><img src="img/sotr/volvo.jpg" alt="img"></a></div>
+					</div>
+				</div>
+				<div class="right-slide-arrow"><a href="#"><img src="img/arrow-left.png" alt="arrow"></a></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- main -->
+
+
+<!-- footer -->
+
+<footer>
+	<div class="footer-row">
+		<div class="footer-columns">
+			<div class="column">
+				<p>О нас</p>
+				<span>Регламентное ТО, внеплановое техническое обслуживание и ремонт любой сложности для легковых, грузовых авто – основной спектр услуг нашего автосервиса. Мы предлагаем высокое качество запасных деталей и расходников для замены, надежность ремонта, увеличение производительности и ресурса машины. Наши преимущества – опыт, оперативность работы, демократичные цены и гарантии на все виды услуг.</span>
+			</div>
+			<div class="column foot-text-center">
+				<p>Контакты</p>
+				<span>Наш адрес: г.Днепр <br>
+				ул.Шинная 2 <br>
+				Телефон: +38 (067) 424-44-84<br>
+				Email: etrstocom@gmail.com </span>
+			</div>
+			<div class="column">
+				<p>Телефоны</p>
+				<div class="phone">
+					<a href="tel:+380674244484">+38 (067) 424-44-84</a>
+					<div class="button">
+						<a href="#call">ПОЗВОНИТЕ МНЕ</a>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+	<div class="SergeyArt">
+		<p>© 2017  Cделано студией <a href="http://qwertyx.net/" target="_blanc">Qwertyx</a></p>
+	</div>
+</footer>
+
+<!--end footer -->
+
+</body>
+</html>
